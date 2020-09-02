@@ -17,12 +17,14 @@ export default props => {
     return (
         <div className="Table-content">
             <table>
-                <tr>
-                    <th>Nome</th>
-                    <th>Descricao</th>
-                    <th>Preco</th>
-                </tr>
-                {listaProdutos}
+                <tbody>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descricao</th>
+                        <th>Preco</th>
+                    </tr>
+                    {listaProdutos}
+                </tbody>
             </table>
         </div>
        

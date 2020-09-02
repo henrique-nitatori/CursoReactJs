@@ -11,6 +11,10 @@ import DesafioRepeticao from './components/repeticao/DesafioRepeticao';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicacao/DiretaPai'
+import IndiretaPai from './components/comunicacao/InderetaPai.jsx'
+import Input from './components/formulario/Input.jsx'
+import Contador from './components/contador/Contador.jsx'
+import MegaSena from './components/DesafioMegasena/DesafioMegaSena.jsx'
 
 import './App.css';
 
@@ -19,7 +23,19 @@ export default _ => {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
-            <Card titulo="#9 Comunicacao direta" color="#958">
+                <Card titulo="#12 Contador" color="#991">
+                    <MegaSena  />
+                </Card>
+                <Card titulo="#12 Contador" color="#144">
+                        <Contador numeroInicial={10} />
+                </Card>
+                <Card titulo="#11 Componente controlado" color="#099">
+                        <Input />
+                </Card>
+                <Card titulo="#10 Comunicacao indireta" color="#704">
+                        <IndiretaPai />
+                </Card>
+                <Card titulo="#9 Comunicacao direta" color="#958">
                         <DiretaPai />
                 </Card>
                 <Card titulo="#8 Renderizacao condicional" color="#192">
