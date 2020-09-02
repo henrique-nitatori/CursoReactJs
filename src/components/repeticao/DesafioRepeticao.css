@@ -1,0 +1,15 @@
+.Table-content {
+    display: flex;
+    justify-content: center;
+}
+.Table-content table tr th {
+    background-color: cadetblue;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 2px solid black;
+  }
